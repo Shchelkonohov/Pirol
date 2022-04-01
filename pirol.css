@@ -171,9 +171,36 @@
 
 .line_first {
   background-color: #10c9c3;
-
   height: 3px;
   z-index: 999;
   margin-top: 3px;
-  object-fit: contain;
+  width: 75%;
+}
+.line_second {
+  background-color: #10c9c3;
+  height: 3px;
+  z-index: 999;
+  margin-top: 3px;
+  width: 90%;
+}
+
+.line_third {
+  background-color: #10c9c3;
+  height: 3px;
+  z-index: 999;
+  margin-top: 3px;
+  width: 65%;
+}
+
+.forth_part {
+  height: 240px;
+  width: 100%;
+  background-color: #10c9c3;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  color: aliceblue;
+}
+.first_element {
 }
