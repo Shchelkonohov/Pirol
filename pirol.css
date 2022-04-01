@@ -1,9 +1,179 @@
-.first_part {
-  height: 670px;
-  width: 100%;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-img {
+.nav_bar {
+  height: 99px;
+  width: 100%;
+  background-color: #808080;
+  position: fixed;
+  background-image: url("logo.png");
+  background-repeat: no-repeat;
+  background-position: 98px 38px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.buttons {
+  width: 58%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 98px;
+}
+.first_nav {
+  color: #10c9c3;
+}
+.first_part {
+  background-image: url("1920x1080-gray-solid-color-background.jpg");
   width: 100%;
   height: 670px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.headers {
+  width: 455px;
+  margin-right: 148px;
+}
+.Header_one {
+  font-family: Montserrat;
+  font-size: 38px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.26;
+  letter-spacing: 0.38px;
+  text-align: left;
+  color: #1d1d1d;
+}
+.Header_two {
+  font-family: NunitoSans;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: 0.09px;
+  text-align: left;
+  color: #424242;
+  margin-top: 32px;
+  margin-bottom: 39px;
+  margin-left: 5px;
+}
+.contact_us {
+  background-color: #10c9c3;
+  width: 180px;
+  height: 54px;
+  border-radius: 2px;
+  color: aliceblue;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 12px;
+  margin-left: 5px;
+}
+.second_part {
+  height: 419px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("signature.png");
+  background-repeat: no-repeat;
+  background-position: center 315px;
+}
+.textes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 620px;
+}
+.about_us {
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: 0.3px;
+  text-align: center;
+  color: #191919;
+  margin-bottom: 20px;
+}
+
+.signature_text {
+  font-family: NunitoSans;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.08px;
+  text-align: center;
+  color: #787878;
+}
+
+.third_part {
+  height: 570px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.prof_scills {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 28%;
+}
+.blank {
+  width: 50%;
+  height: 100%;
+  background-image: url("1920x1080-gray-solid-color-background.jpg");
+}
+.list {
+  width: 80%;
+}
+.name {
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.8;
+  letter-spacing: 0.3px;
+  text-align: left;
+  color: #171717;
+}
+.font {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.5;
+  letter-spacing: 1.2px;
+  text-align: left;
+  color: #000;
+  margin-top: 19px;
+}
+.line {
+  width: 100%;
+  height: 3px;
+  background-color: #808080;
+}
+
+.line_first {
+  background-color: #10c9c3;
+
+  height: 3px;
+  z-index: 999;
+  margin-top: 3px;
+  object-fit: contain;
 }
