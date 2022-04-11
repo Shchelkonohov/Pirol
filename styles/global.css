@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    width: 86%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.container-right {
+    height: 100%;
+    margin-left: auto;
+    width: calc(86% + 7%);
+}
+
+.primary-button {
+    cursor: pointer;
+    padding: 20px 45px;
+    color: #ffffff;
+    background: #10c9c3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    transition: all .3s ease;
+}
+
+.primary-button:hover {
+    background: #0c8581;
+}

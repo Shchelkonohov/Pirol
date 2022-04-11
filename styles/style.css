@@ -1,0 +1,287 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+nav {
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+nav .content {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li a {
+    color: #191919;
+    padding: 10px 15px;
+    font: 500 12px/24px "Montserrat", sans-serif;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+    color: #10c9c3;
+}
+
+header {
+    background: #e9e9e9;
+    height: 100vh;
+}
+
+header .content {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header .header-content {
+    height: 100%;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .header-content h1 {
+    color: #1d1d1d;
+    font: 500 38px/48px "Montserrat", sans-serif;
+    letter-spacing: 0.38px;
+}
+
+header .header-content p {
+    color: #787878;
+    margin: 30px 0 40px 0;
+    font: 400 18px/28px "Montserrat", sans-serif;
+    letter-spacing: 0.09px;
+}
+
+section.about-us {
+    background: white;
+    padding: 100px 0;
+}
+
+section.about-us .content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+section.about-us .content h2 {
+    color: #191919;
+    font: 500 30px "Montserrat", sans-serif;
+}
+
+section.about-us .content p {
+    color: #787878;
+    width: 55%;
+    text-align: center;
+    margin: 40px 0;
+    font: 400 16px/24px "Montserrat", sans-serif;
+}
+
+section.skills {
+    background: #f8f9f9;
+}
+
+section.skills .content {
+    display: flex;
+}
+
+section.skills .skills-content {
+    padding: 100px 85px 100px 0;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+section.skills h2 {
+    margin-bottom: 40px;
+    font: 500 30px "Montserrat", sans-serif;
+}
+
+section.skills .progress-group:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+section.skills .progress-group h4 {
+    margin-bottom: 20px;
+    font: 500 12px "Montserrat", sans-serif;
+}
+
+section.skills .progress-bar {
+    background: #d8d8d8;
+    height: 3px;
+    width: 100%;
+}
+
+section.skills .progress-bar>div {
+    height: 100%;
+    background: #10c9c3;
+}
+
+.progress-bar>.progress-bar-65 {
+    width: 65%;
+}
+
+.progress-bar>.progress-bar-75 {
+    width: 75%;
+}
+
+.progress-bar>.progress-bar-90 {
+    width: 90%;
+}
+
+section.skills .skills-image {
+    width: 50%;
+}
+
+section.skills .skills-image .chaika {
+    width: 100%;
+    height: 100%;
+}
+
+.number-stats {
+    background-color: #10c9c3;
+}
+
+.container-stats {
+    width: 80%;
+    padding-left: 7%;
+}
+
+.content-stats {
+    display: flex;
+    padding: 5% 0% 5% 0;
+    justify-content: space-between;
+}
+
+.forth-stat,
+.first-stat,
+.second-stat,
+.third-stat {
+    font: 500 12px/30px "Montserrat", sans-serif;
+    color: #ffffff;
+    display: flex;
+    padding: 5px;
+
+    align-items: center;
+}
+
+.project-number,
+.hours-number,
+.feedbacks-number,
+.clients-number {
+    font: 500 18px/30px "Montserrat", sans-serif;
+    margin-bottom: -10px;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.squers {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.first-half,
+.second-half {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    height: 600px;
+}
+
+.img-row {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+.gray,
+.second-gray {
+    background-color: #3b3a3a;
+    height: 100%;
+    width: 50%;
+}
+
+.white,
+.second-white {
+    background-color: #bfc5c5;
+    height: 100%;
+    width: 50%;
+}
+
+.loadmore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+
+.text-more-work {
+    font: 500 12px/30px "Montserrat", sans-serif;
+    color: #8e8e8e;
+
+    padding: 20px;
+}
+
+.our-work {
+    font: 500 30px/30px "Montserrat", sans-serif;
+    color: #191919;
+    margin-top: 30px;
+}
+
+.our-work-more {
+    font: 500 18px/30px "NunitoSans", sans-serif;
+    color:
+        #787878;
+    width: 50%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.video-textes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 70px;
+}
+
+
+
+.player-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+video {
+    width: 85%;
+    padding: 0 7% 0 7%;
+
+}
